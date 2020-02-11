@@ -1,6 +1,9 @@
 name: 'Publishes a draft release'
 description: 'GitHub Action that publishes a draft GitHub release (cross-platform)'
 author: 'AButler'
+branding:
+  color: green
+  icon: tag
 inputs:
   release-tag:
     description: 'The tag name of the release to upload to (if not specified then the release that triggered the workflow is used)'
